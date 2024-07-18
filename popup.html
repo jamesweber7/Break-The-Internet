@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Break The Internet</title>
+    <!-- actions for breaking the internet -->
+    <script defer src="freeze.js"></script>
+    <script defer src="alerts.js"></script>
+    <script defer src="block_cursor.js"></script>
+    <script defer src="midas_touch.js"></script>
+    <script defer src="delete_cursor.js"></script>
+    <script defer src="delete_everything.js"></script>
+    <!-- Add more: <script defer src="script_filename.js"></script> -->
+    <!-- driver for deploying actions -->
+    <script defer src="deploy_actions.js"></script>
+    <!-- styling -->
+    <style>
+        html, body {
+            width: 100px;
+            margin: 0;
+            padding: 0;
+        }
+
+        button {
+            width: calc(100% - 20px);
+            margin: 5px 10px;
+        }
+    </style>
+</head>
+<body>
+    <button id="freeze" title="Freeze the page by creating an infinite loop">Freeze</button>
+    <button id="alert" title="Create infinite alerts">Alerts</button>
+    <button id="block-cursor" title="Put a block in front of the user's cursor">Block Cursor</button>
+    <button id="midas-touch" title="The user's cursor deletes everything it touches">Midas Touch</button>
+    <button id="delete-cursor" title="The user's cursor deletes everything it touches">Delete Cursor</button>
+    <button id="delete-everything" title="Delete the whole page">Delete Everything</button>
+    <!-- Add more: <button id="button-id" title="description">Plaintext Function Name</button> -->
+</body>

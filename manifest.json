@@ -1,0 +1,26 @@
+{
+    "name": "Break The Internet",
+    "version": "1.0.0",
+    "icons": {
+    },
+    "description": "Functions which stop the user from interacting with a webpage",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": [ "assets/nope.svg" ],
+            "matches": [ "<all_urls>" ]
+        }
+    ],
+    "icons": {
+        "16": "assets/nope16.png",
+        "48": "assets/nope48.png",
+        "128": "assets/nope128.png"
+    }
+}

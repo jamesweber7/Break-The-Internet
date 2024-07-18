@@ -1,0 +1,7 @@
+<svg width="361.42px" height="361.42px" viewBox="0 0 361.42 361.42" xmlns="http://www.w3.org/2000/svg">
+    <!-- Octagon shape -->
+    <polygon fill="red" stroke="white" stroke-width="20"
+      points="110,10 251.42,10 351.42,110 351.42,251.42 252.42,351.42  110,351.42 10,251.42 10,110"/>
+    <!-- Text "STOP" -->
+    <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="85" font-family="Arial" fill="white">NOPE</text>
+</svg>
